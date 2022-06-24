@@ -2,10 +2,9 @@ import './App.css';
 
 // Uncomment untuk memuat daftar kontak
  
- import { Contact } from './components/Contact';
- import { Header } from './components/Header';
- import React from 'react';
- import contacts from './data/contacts.json';
+  import Header from './components/Header';
+  import Contact from './components/Contact';
+  import contacts from './data/contacts.json';
 
  const App = () => {
   // Masukkan Header dan Contact ke dalam div App
